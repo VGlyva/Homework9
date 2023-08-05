@@ -24,7 +24,7 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
         }
-        System.out.println("Сумма трат за месяц составила " + sum + " рублей");
+        System.out.println("Сумма трат за месяц составила " + sum + " рублей.");
         System.out.println();
     }
     public static void task2() {
@@ -36,14 +36,14 @@ public class Main {
                 maxMeaning = arr[i];
             }
         }
-        System.out.println("Максимальная сумма трат за день составила " + maxMeaning);
+        System.out.println("Максимальная сумма трат за день составила " + maxMeaning + ".");
         int minMeaning = arr[0];
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < minMeaning) {
                 minMeaning = arr[i];
             }
         }
-        System.out.println("Минимальная сумма трат за день составила " + minMeaning);
+        System.out.println("Минимальная сумма трат за день составила " + minMeaning + ".");
         System.out.println();
     }
     public static void task3() {
